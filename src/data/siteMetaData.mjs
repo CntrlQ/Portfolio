@@ -8,7 +8,7 @@ export const siteMetadata = {
   siteName: "",
   siteUrl: "",
   siteRepo: "",
-  siteLogo: "/favicon.ico",
+  siteLogo: "",
   image: "/static/homepage.png",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
