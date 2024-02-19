@@ -31,7 +31,6 @@ export const EDUCATION: TShowCaseListDetatils[] = [
     },
     date: "2017-2018",
     location: "Thrissur, Kerala",
-    description:
-      "Learned good values,dedication and disciplne.",
+    description: "Learned good values,dedication and disciplne.",
   },
 ];

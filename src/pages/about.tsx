@@ -6,7 +6,7 @@ import { AnimatePresence } from "framer-motion";
 import ShowCaseList from "@/components/ShowCaseList";
 import { EXPERIENCE } from "@/data/experience";
 import { EDUCATION } from "@/data/education";
-import heroProfileImg from "@/public/images/heroProfile.png";
+// import heroProfileImg from "@/public/images/heroProfile.png";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function About() {
