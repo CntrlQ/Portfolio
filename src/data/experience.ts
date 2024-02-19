@@ -2,35 +2,25 @@ import { TShowCaseListDetatils } from "@/components/ShowCaseList";
 
 export const EXPERIENCE: TShowCaseListDetatils[] = [
   {
-    title: "Reactjs Frontend Developer",
+    title: "Chief Experience Officer",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "LucidBytes Corp ",
+      href: "https://lubycorp.com",
     },
-    date: "Oct 2023 - Present",
+    date: "Jan 2023 - Present",
     location: "Thrissur",
-    description: "Reactjs and Nextjs app development",
+    description:
+      "As the CXO, I spearhead strategic initiatives to optimize the overall client experience, fostering innovation and efficiency across the organization.",
   },
   {
-    title: "Engineering Trainee",
+    title: "Subject Matter Expert",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "Chegg INC",
+      href: "",
     },
-    date: "July 2023 - Sep 2023",
+    date: "May 2020 - Dec 2022",
     location: "Remote",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
-  },
-  {
-    title: "Frontend Developer Intern",
-    organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
-    },
-    date: "Winter - 2022",
-    location: "Remote",
-    description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Solved and answered multiple questions from students on the subject of computer science.",
   },
 ];

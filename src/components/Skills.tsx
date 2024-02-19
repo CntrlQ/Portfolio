@@ -2,8 +2,6 @@ import { JSX } from "react";
 import { AnimatePresence } from "framer-motion";
 import FadeRight from "@/animation/FadeRight";
 import {
-  BACKEND_PILL,
-  DATABASE_ORM_PILL,
   LANGUAGES,
   LIBRARY_FRAMEWORK,
   TOOLS_TECHNOLOGIES,
@@ -61,44 +59,6 @@ export default function Skills() {
               {LIBRARY_FRAMEWORK.map((pill, index) => (
                 <FadeRight
                   key={`lib-frame-${index}`}
-                  duration={0.4}
-                  delay={0.1 + index * 0.1}
-                  whileInView={!isMobileDebonced}
-                  className="-z-20"
-                >
-                  <SkillPill {...pill} />
-                </FadeRight>
-              ))}
-            </div>
-          </div>
-        </AnimatePresence>
-        <AnimatePresence>
-          <div className="mt-4">
-            <span className="text-xs font-semibold sm:text-sm">Backend</span>
-            <div className="mt-2 flex flex-wrap gap-3">
-              {BACKEND_PILL.map((pill, index) => (
-                <FadeRight
-                  key={`backend-${index}`}
-                  duration={0.4}
-                  delay={0.1 + index * 0.1}
-                  whileInView={!isMobileDebonced}
-                  className="-z-20"
-                >
-                  <SkillPill {...pill} />
-                </FadeRight>
-              ))}
-            </div>
-          </div>
-        </AnimatePresence>
-        <AnimatePresence>
-          <div className="mt-4">
-            <span className="text-xs font-semibold sm:text-sm">
-              Databases and ORMs
-            </span>
-            <div className="mt-2 flex flex-wrap gap-3">
-              {DATABASE_ORM_PILL.map((pill, index) => (
-                <FadeRight
-                  key={`database-orm-${index}`}
                   duration={0.4}
                   delay={0.1 + index * 0.1}
                   whileInView={!isMobileDebonced}
