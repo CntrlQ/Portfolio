@@ -20,13 +20,13 @@ export default function Home() {
       />
       <NextSeo
         title="Noora Sajil | Frontend Developer"
-        description="Explore the professional portfolio of Noora Sajil, a skilled React and Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        description="Explore the professional portfolio of Noora Sajil, a skilled  Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Noora Sajil - React and Frontend Developer Portfolio",
+          title: "Noora Sajil -  Frontend Developer Portfolio",
           description:
-            "Dive into the world of web development with Noora Sajil. Discover a React and Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Noora Sajil. Discover a  Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
