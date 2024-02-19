@@ -40,7 +40,7 @@ export default function Hero() {
                 Noora Sajil
               </h1>
               <span className="text-xl font-semibold text-zinc-900 dark:text-zinc-100 md:text-3xl">
-                Frontend and React.js developer
+                Frontend developer
               </span>
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>

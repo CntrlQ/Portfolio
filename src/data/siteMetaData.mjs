@@ -4,7 +4,7 @@ export const siteMetadata = {
   headerTitle: "Noora Sajil",
   description: "Frontend developer",
   language: "en-us",
-  theme: "light",
+  theme: "dark",
   siteName: "",
   siteUrl: "",
   siteRepo: "",
