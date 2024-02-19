@@ -21,7 +21,7 @@ export const EDUCATION: TShowCaseListDetatils[] = [
     date: "2018-2020",
     location: "Thrissur, Kerala",
     description:
-      "Completed the course in Electronics Bifocal Science with 73%. Started freelancing making 3D assets for games. Got interested in game development and learned unity and c#",
+      "Completed the course in Biology and mathematics with 73%. Got interested in  development and learned unity.",
   },
   {
     title: "Secondary School Education",
